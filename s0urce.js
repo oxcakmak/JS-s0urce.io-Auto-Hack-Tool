@@ -1,14 +1,21 @@
+/*
+Author: Osman Çakmak
+Skype: oxcakmak
+Email: oxcakmak@hotmail.com
+Website: http://oxcakmak.com/
+Country: Turkey [TR]
+*/
 // eslint-disable-next-line prefer-const, one-var
 let config, vars, app, loops, gui;
 
 // eslint-disable-next-line prefer-const
 config = {
 	// the message you send to others when you hack them
-	message: "papa bless, it's everyday bro /r/javascript",
+	message: "papa bless, it's everyday bro",
 	autoTarget: true,
 	autoAttack: true,
 	// the base64 database url
-	db: "https://raw.githubusercontent.com/snollygolly/sourceio-automation/master/db.json",
+	db: "https://raw.githubusercontent.com/oxcakmak/JS-s0urce.io-Auto-Hack-Tool/master/db.json",
 	// all things timing related
 	freq: {
 		// how often to guess
